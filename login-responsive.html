@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link href="css/form_style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <div class="container">
+       <form action="index.php" method="post" name="form" id="form">
+         <fieldset>
+         <legend>Vaši podaci</legend>
+      
+          <input type="text" name="ime" id="ime" placeholder="First Name">
+          <br><br>
+          
+          <input type="text" name="prezime" id="prezime" placeholder="Last Name">
+          <br><br>
+          
+          <input type="email" name="email" id="email" placeholder="Email">
+        </fieldset>
+          <br><br>
+          <input type="radio" name="country" id="serbia" value="serbia" >
+          <label for="serbia">Niš</label>
+          <br>
+          <input type="radio" name="country" id="makedonija" value="makedonija">
+          <label for="makedonija">Beograd</label>
+          <br>
+          <input type="radio" name="country" id="bosna" value="bosna">
+          <label for="bosna">Novi Sad</label>
+          <br><br>
+          <label for="pitanje">Vaše pitanje:</label>
+          <br>
+          <textarea name="pitanje" id="pitanje"></textarea>
+          <br><br>
+          <input type="submit" name="submit" id="submit" value="Pošalji">
+         
+           
+        </form>
+        <br>
+       Za povratak na glavnu stranu kliknite <a href="index.html">ovde</a>.
+      </div>  
+    </body>
+</html>

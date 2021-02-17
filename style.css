@@ -1,0 +1,212 @@
+body {
+    margin:0;
+    padding:0;
+   font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/sharon.jpg);
+    background-size: cover;
+    
+}
+.wrapper {
+    width:960px;
+    margin:10px auto;
+    padding:10px;
+    background-color: #BBB;
+    
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#mainHeader {
+    overflow:hidden;
+    background-color: #AAA;
+
+   
+
+}
+#logo {
+    border-radius: 50px;
+    margin-bottom: 5px;
+
+}
+
+.search {
+    float:right;
+    background-color: #EEE;
+    margin-top:10px;
+    margin-right:10px;
+    box-shadow: 3px -3px 5px 0px #555;
+    border-radius: 2px;
+}
+
+ul {
+    padding:0;
+    margin:0;
+     background-color: #EEE;
+
+
+
+}
+ul.links li {
+    float:left;
+    margin:0;
+    list-style-type: none;
+    padding:15px;
+     background-color: #EEE;
+     border:1px solid #333;
+     box-shadow: 3px -3px 5px 0px #555;
+    border-radius: 2px;
+
+}
+li{
+    list-style-type: none;
+}
+
+a:link,
+a:visited {
+     text-decoration:none;
+    transition:all 1s linear;
+}
+a:hover {
+    
+    color:red;
+    
+
+}
+a:active {
+    color:#BBB;
+}
+
+.content {
+    overflow:hidden;
+    background-color: #FFF;
+    margin-bottom:15px;
+}
+#main {
+    width:650px;
+    float:left;
+    padding-left:15px;
+   padding-right: 15px;
+}
+#main p {
+    text-align: justify;
+}
+img.tower {
+    float:left;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+#article {
+    overflow:hidden;
+}
+#articleMain {
+    width:70%;
+    float:left;
+
+}
+#articleMain p {
+    padding-right:20px;
+}
+#sidebar {
+    width:25%;
+    float:right;
+    background-color: #DDD;
+    padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 40px;
+}
+.video {
+    max-width:100%;
+}
+.center {
+    overflow:hidden;
+}
+.buildings {
+    float:left;
+}
+.sud {
+    float:right;
+     width:50%;
+}
+
+
+#mainAside {
+    width:250px;
+    float:right;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.video {
+    margin-top:15px;
+    
+}
+#post {
+    margin-bottom: 15px;
+}
+
+div.buildings ul {
+    width:50%;
+    padding:10px;
+    padding-bottom: 30px;
+}
+.parks {
+    overflow:hidden;
+}
+.gorca {
+    float:left;
+    width:50%;
+    padding-bottom: 15px;
+}
+.streets {
+    float: right;
+    width:50%;
+
+}
+#mainFooter ul li {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 5px;
+}
+
+.maincontent {
+    width:650px;
+    float:left;
+}
+.side {
+width:250px;
+float:right;
+
+}
+.festival {
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.mainside{
+    overflow:hidden;
+}
+
+
+article.praistorija p,
+article.srednjiVek p,
+article.noviVek p {
+    text-align: justify;
+}
+.image {
+    float:left;
+    padding-right: 15px;
+}
+
+.culture {
+    text-align:justify;
+}
+.museums {
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.industry {
+    text-align: justify;
+}
+
